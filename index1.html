@@ -20,11 +20,15 @@
     <form action="/index.html" method="POST">
 
     
-        <label for ="username">username</label>
-        <input type="text" name="username" value="" size="5" maxSize="15" required><br>
+        <label for ="username">username:</label>
+        <input type="text" id="username" name="username"  minlength="15"  maxlength="20"required>
+        <br>
         <label for ="password">password</label>
-        <input type="password" name="pwd" value="" size="5" maxSize="15" required>
+        <input type="password" id="pwd" name="password" minlength="15"  maxlength="20"required>
+    
+        <br>
+        <input type="submit">
     </form>
     
 </body>
-</html>git
+</html>
